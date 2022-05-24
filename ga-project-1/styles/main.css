@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 205, 255);
+}
+
+.info-pannel {
+  align-content: bottom;
+}
+.game-score-box {
+  background-color: rgb(245, 167, 255);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 30px;
+  font-family: avenir;
+  font-weight: bolder;
+  font-size: 10px;
+}
+
+.next-piece-box {
+  font-family: avenir;
+  text-align: center;
+}
+.game-score {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+.game-box {
+  margin: 30px;
+}
+.line-score-box {
+  background-color: rgb(245, 167, 255);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 30px;
+  font-family: avenir;
+  font-weight: bolder;
+  font-size: 10px;
+}
+
+.line-score {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 500px;
+  background-color: red;
+}
+.grid div {
+  width: 10%;
+  height: 5%;
+  background-color: rgb(218, 254, 255);
+  font-size: 10px;
+}
+.next-piece-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 100px;
+  background-color: ;
+}
+
+.next-piece-grid div {
+  width: 10%;
+  height: 25%;
+  background-color: rgb(218, 254, 255);
+  font-size: 10px;
+}
+
+.game-display {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+div .piece {
+  background-color: rgb(255, 121, 121);
+}
+
+div .filled {
+  background-color: rgb(118, 240, 148);
+}
+
+div .bblock {
+  background-color: rgb(255, 165, 61);
+}
+div .tblock {
+  background-color: rgb(106, 103, 255);
+}
+div .zblock {
+  background-color: rgb(184, 109, 255);
+}
+div .sblock {
+  background-color: rgb(255, 144, 227);
+}
+div .lblock {
+  background-color: rgb(255, 101, 101);
+}
+div .rlblock {
+  background-color: rgb(49, 226, 43);
+}
+div .iblock {
+  background-color: rgb(43, 226, 211);
+}
+
+.game-score-box {
+  margin-top: 200px;
+}
+.start-game {
+  padding: 10px;
+  font-family: avenir;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.play-now {
+  text-align: center;
+  font-size: 50px;
+  font-family: avenir;
+  margin: 0;
+  justify-content: center;
+  margin-left: 100px;
+  align-self: center;
+}
+
+.play-now h1 {
+  magin: 0;
+  padding: 0;
+}
+
+.game-over {
+  font-size: 20px;
+}
+
+div .wall {
+  background-color: rgb(71, 71, 71);
+}
+
+button:hover {
+  background-color: rgb(187, 255, 255);
+}
