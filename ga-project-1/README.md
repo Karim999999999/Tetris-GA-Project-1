@@ -225,6 +225,7 @@ The first event listener listens out for presses to the start game function in o
 
 The event listeners are also used to register arrow keys onto the system, allowing us to move and rotate the piece around.
 
+## Wins, Struggles, Noted and Improvements:
 ### Main Achievements:
 
 The game was fully functional! With a start and game over button, it makes it easy for people to start. The game gets progressively more difficult, making it both fun and easy at starting rounds, and more challenging. I have personally spent a bunch of time playing it while developing it which has been distracting but lots of fun.
